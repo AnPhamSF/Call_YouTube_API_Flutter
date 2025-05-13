@@ -36,7 +36,7 @@ class VideoListPage extends StatefulWidget {
 }
 
 class _VideoListPageState extends State<VideoListPage> {
-  final String apiKey = 'AIzaSyBxE8lRGAg52eefzScbb8157uSc_wac46o';
+  final String apiKey = 'API_KEY'; //Nhập API Key
   List _videos = [];
   bool _isLoading = true;
   String? _error;
